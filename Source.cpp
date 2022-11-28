@@ -3,7 +3,7 @@
 #include <fstream>
 using namespace std;
 
-// функція введення даних з клавіатури, параметри передаються за посиланням
+// ГґГіГ­ГЄГ¶ВіГї ГўГўГҐГ¤ГҐГ­Г­Гї Г¤Г Г­ГЁГµ Г§ ГЄГ«Г ГўВіГ ГІГіГ°ГЁ, ГЇГ Г°Г Г¬ГҐГІГ°ГЁ ГЇГҐГ°ГҐГ¤Г ГѕГІГјГ±Гї Г§Г  ГЇГ®Г±ГЁГ«Г Г­Г­ГїГ¬
 bool input(double& n, double& a,  double& b, double& h, double &x)
 {
 	
@@ -18,7 +18,7 @@ bool input(double& n, double& a,  double& b, double& h, double &x)
     return true;
 }
 
-// Функція, визначена в завданні
+// Г”ГіГ­ГЄГ¶ВіГї, ГўГЁГ§Г­Г Г·ГҐГ­Г  Гў Г§Г ГўГ¤Г Г­Г­Ві
 double print(double n, double x)
 {
 
@@ -58,10 +58,10 @@ double print(double n, double x)
 }
 
 
-// Виведення значень аргументів і функції на інтервалі з визначеним кроком
+// Г‚ГЁГўГҐГ¤ГҐГ­Г­Гї Г§Г­Г Г·ГҐГ­Гј Г Г°ГЈГіГ¬ГҐГ­ГІВіГў Ві ГґГіГ­ГЄГ¶ВіВї Г­Г  ВіГ­ГІГҐГ°ГўГ Г«Ві Г§ ГўГЁГ§Г­Г Г·ГҐГ­ГЁГ¬ ГЄГ°Г®ГЄГ®Г¬
 void printInALoop(double n, double a, double h, double b, double x)
 {
-	cout << "Want to write the results to a file (1-yes 0-no)";
+	cout << "Want to write result to a file (1-yes 0-no)";
 	int s;
 	cin >> s;
 	ofstream fout("oipz3.txt", ios::app);
